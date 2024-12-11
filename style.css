@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,700;1,700&display=swap');
+:root {
+    --color-backgraund: #DEE33E;
+    --color-placeholder-background: #fafafa;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-backgraund);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 0;
+    width: 567px;
+    height: 720px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.150);
+    gap: 24px;
+}
+
+input {
+    display: flex;
+    border: 0;
+    border-radius: 8px;
+    height: 56px;
+    width: 470px;
+    background-color: var(--color-placeholder-background);
+    padding-left: 16px;
+}
+
+input[name="firstName"],
+input[name="lastName"] {
+    width: 222px;
+    padding: 0 0 0 16px;
+}
+
+h2 {
+    margin: 40px 100px;
+}
+
+input[name="lastName"] {
+    margin-left: -8px;
+}
+
+input[name="radio"] {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+input[name="password"] {
+    left: 10px;
+}
+
+
+.radioIo {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+
+}
+
+p {
+    margin: 0;
+    margin-left: 12px;
+    font-family:"Outfit";
+    font-size: 16px;
+    font-weight:500;
+}
+
+button {
+    width: 486px;
+    height: 56px;
+    border: 0px;
+    background-color: var(--color-backgraund);
+    border-radius: 8px;
+    font-family:"Urbanist";
+    font-weight:700;
+}
+
+.straight::before,
+.straight::after{
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #EEEFF2;
+    width: 148px;
+    transform: translateY(-5px);
+}
+
+.straight::before {
+    margin-right: 22px;
+}
+
+.straight::after {
+    margin-left: 22px;
+}
+
+.google,
+.apple {
+    width: 216.5px;
+    height: 56px;
+    background-color: white;
+    background-position: center;
+    margin-top: 24px;
+}
+
+.google {
+    background-image: url(./assets/icon/Google-button.svg);
+    margin-right: 16px;
+}
+
+.apple {
+    background-image: url(./assets/icon/Apple-button.svg);
+    margin-left: 16px;
+}
+
+.loginNow {
+    color: var(--color-backgraund);
+}
+
+.already {
+    margin-top: 32px;
+    margin-left: 25%;
+}
+
+.terms {
+    color: var(--color-backgraund);
+}
+
+.eye-off {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+h1 {
+    font-family:"Outfit";
+    font-size: 33.67px;
+}
+
+h2 {
+    font-family:"Outfit";
+    font-size: 32px;
+}
